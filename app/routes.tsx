@@ -20,12 +20,7 @@ export interface DocAppRoutesParams extends IRouteParams {
 const DocAppRouter: AppRouter = () => (
   <Router.Root>
     <Router.Group type={AppRouterGroup.DEFAULT}>
-      <Router.Route
-        name={DocAppRoute.HOME}
-        path={"/"}
-        view={HomeView}
-        onRequest={(_, res) => res.callNotFound()}
-      />
+      <Router.Route name={DocAppRoute.HOME} path={"/"} view={HomeView} />
     </Router.Group>
     <Router.Group type={AppRouterGroup.API}>
       <Router.Route

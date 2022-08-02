@@ -62,10 +62,6 @@ async function main(): Promise<AppServer> {
       routesFile: paths.ROUTES_FILE,
       viewsFolder: paths.VIEWS_FOLDER,
     },
-    externalDependencies: {
-      "cross-fetch": "CrossFetch",
-      "markdown-to-jsx": "MarkdownToJSX",
-    },
     baseHeadTags: [
       {
         kind: "meta",
