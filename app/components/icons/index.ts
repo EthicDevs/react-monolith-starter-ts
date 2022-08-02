@@ -1,0 +1,1 @@
+export { ReactMonolithLogo } from "./ReactMonolithLogo";

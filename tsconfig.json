@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": true,
+    "incremental": false,
+    "lib": ["es2020", "dom"],
+    "jsx": "react",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "paths": {
+      "*": ["types/*"],
+      "app/*": ["app/*"],
+      "migrations/*": ["migrations/*"]
+    },
+    "typeRoots": ["./node_modules/@types", "./types"],
+    "outDir": "./dist",
+    "resolveJsonModule": true,
+    "rootDir": ".",
+    "sourceMap": true,
+    "target": "es5",
+
+    // Strict Type-Checking Options
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+
+    // Additional Checks
+    "allowSyntheticDefaultImports": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+
+    // Experimental Options
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "exclude": ["./**/*.test.ts", "./dist", "./migrations", "./public"]
+}

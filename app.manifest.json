@@ -1,0 +1,19 @@
+{
+  "_generatedAtUnix": 1659399017465,
+  "_hashAlgorithm": "sha1",
+  "_version": 2,
+  "islands": {
+    "Counter": {
+      "hash": "598aec62d7c77fa9f4d96473d258617e066f1071",
+      "pathSource": "./app/islands/Counter.tsx",
+      "pathBundle": "./public/.islands/Counter.bundle.js",
+      "pathSourceMap": "./public/.islands/Counter.bundle.js.map"
+    }
+  },
+  "views": {
+    "HomeView": {
+      "hash": "91134ee170a23e03b2e31eb58e91edc3ed06ef8d",
+      "pathSource": "./app/views/HomeView.tsx"
+    }
+  }
+}

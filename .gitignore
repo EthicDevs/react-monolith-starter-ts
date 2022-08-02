@@ -1,0 +1,21 @@
+.DS_Store
+dist/
+node_modules/
+
+package-lock.json
+*.log
+
+# Ignore islands built files
+public/.islands/
+public/islands-runtime.js
+public/islands-runtime.js.map
+
+# Environment files (except examples)
+!.env
+!.env.example
+!.env.*.example
+.env.*
+
+# Local development sessions db
+*.db
+*.sqlite
